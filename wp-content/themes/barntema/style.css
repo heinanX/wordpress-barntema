@@ -1,4 +1,42 @@
 /* Theme Name: barntema
-Description: This is a child theme based on the Twenty Twenty-One parent theme.
-Template: twentytwentyone 
-Version: 1.0.0 */
+Description: This is a child theme based on the Store Commerce parent theme.
+Template: shopstore
+Version: 4.4.1 */
+
+@import url("../shopstore/style.css");
+
+/* Styles the message plugin */
+.storeMessage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #37BF91;
+    color: aliceblue;
+    padding-top: 1em;
+    margin-top: 1em;
+}
+
+
+/* Styles the label plugin with the same features of the onsale class with the adjustment of the color */
+.newArrival {
+    background-color: #37adbf;
+    height: 45px;
+    width: 45px;
+    line-height: 44px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 99;
+
+    margin:0px;
+	right:auto;
+	margin:0px;
+	left:9px;	
+	position: absolute;
+	top:9px;
+	z-index:9;
+}

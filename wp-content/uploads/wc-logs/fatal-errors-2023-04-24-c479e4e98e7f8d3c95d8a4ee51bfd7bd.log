@@ -1,0 +1,12 @@
+2023-04-24T09:37:34+00:00 CRITICAL syntax error, unexpected token "=", expecting "," or ";" in C:\Users\Linda\Desktop\php\henriks\assignment_02\wordpress\wp-content\themes\barntema\functions.php on line 17
+
+2023-04-24T10:34:53+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\Users\Linda\Desktop\php\henriks\assignment_02\wordpress\wp-content\themes\barntema\functions.php:17
+Stack trace:
+#0 C:\Users\Linda\Desktop\php\henriks\assignment_02\wordpress\wp-settings.php(591): include()
+#1 C:\Users\Linda\Desktop\php\henriks\assignment_02\wordpress\wp-config.php(96): require_once('C:\\Users\\Linda\\...')
+#2 C:\Users\Linda\Desktop\php\henriks\assignment_02\wordpress\wp-load.php(50): require_once('C:\\Users\\Linda\\...')
+#3 C:\Users\Linda\Desktop\php\henriks\assignment_02\wordpress\wp-blog-header.php(13): require_once('C:\\Users\\Linda\\...')
+#4 C:\Users\Linda\Desktop\php\henriks\assignment_02\wordpress\index.php(17): require('C:\\Users\\Linda\\...')
+#5 {main}
+  thrown in C:\Users\Linda\Desktop\php\henriks\assignment_02\wordpress\wp-content\themes\barntema\functions.php on line 17
+

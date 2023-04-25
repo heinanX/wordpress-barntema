@@ -19,5 +19,10 @@ wp-signup.php
 wp-trackback.php
 xmlrpc.php
 /index.php
-woocommerce
+/wp-content/plugins/woocommerce
 akismet
+jetpack
+mailpoet
+pintrest-for-woocommerce
+tiktok-for-woocommerce
+woocommerce-services
